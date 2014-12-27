@@ -5,13 +5,17 @@
 
 // The html
 
-    // <div class="dropdown">    
-    //     <select>
-    //         <option>Choisissez carte de crédit</option>
-    //         <option>Visa</option>
-    //         <option>Mastercart</option>
-    //     </select>
-    // </div>
+// <ol class="order-list">
+//     <li class="order-list__item" data-list-num="1">
+//         First item
+//     </li>
+//     <li class="order-list__item" data-list-num="2">
+//         Second item
+//     </li>
+//     <li class="order-list__item" data-list-num="3">
+//         Third item
+//     </li>
+// </ol> 
 
 
 
@@ -39,7 +43,9 @@ $yupik-order-list-text-color: #db6313 !default;
         &:before {
             content: attr(data-list-num);
             position: absolute; left: 0; top: 0;
-            @include circle($yupik-order-list-num-width);
+            width: $yupik-order-list-num-width;
+            height: $yupik-order-list-num-width;
+            border-radius: $yupik-order-list-num-width;
             border: $yupik-order-list-border-width solid $yupik-order-list-border-color;
             font-size: $yupik-order-list-num-width / 2; 
             line-height: $yupik-order-list-num-width - (2 * $yupik-order-list-border-width); 

@@ -1,12 +1,12 @@
 Yupik Order List
 ================
 
-## reworking in progress !
+### Styling ordered list with custom number in a circle
 
-### Styling &lt;select&gt; element easily without lose user experience
+> Is part of [Yupik collection of modules](https://github.com/laurentperroteau/yupik)
 
->  Work in all modern browser. In IE10 and lower, native arrow is using.
+Work in IE9 and higher
 
 Install using Bower:
 
-    $ bower install --save yupik-dropdown
+    $ bower install --save yupik-order-list

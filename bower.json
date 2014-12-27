@@ -1,0 +1,26 @@
+{
+  "name": "yupik-order-list",
+  "version": "0.0.1",
+  "homepage": "https://github.com/laurentperroteau/yupik-order-list",
+  "authors": [
+    "laurentperroteau <laurentperroteau@gmail.com>"
+  ],
+  "description": "Styling ordered list with custom number in a circle",
+  "main": "_objects.vertical-center",
+  "keywords": [
+    "grandwazoo",
+    "inuitcss",
+    "oocss",
+    "sass",
+    "scss",
+    "css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
